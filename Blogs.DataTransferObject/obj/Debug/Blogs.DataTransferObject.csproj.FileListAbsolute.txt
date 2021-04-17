@@ -1,0 +1,6 @@
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\bin\Debug\Blogs.DataTransferObject.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\bin\Debug\Blogs.DataTransferObject.pdb
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\obj\Debug\Blogs.DataTransferObject.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\obj\Debug\Blogs.DataTransferObject.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\obj\Debug\Blogs.DataTransferObject.pdb
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataTransferObject\obj\Debug\Blogs.DataTransferObject.csprojAssemblyReference.cache

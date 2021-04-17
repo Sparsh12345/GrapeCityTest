@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/blogsController.js"></script>
+<div class="container-lg" ng-app="blogApp" ng-controller="blogsController">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h2>Blog <b>List</b></h2></div>
+                    <div class="col-sm-4">
+                        <a href="javascript:void(0);" id="btnAddNew" data-toggle="modal" data-target="#addNew" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</a>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Title</th>
+                        <th>Content</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="x in BlogsData">
+                        <td>{{$index+1}}</td>
+                        <td>{{x.Title}}</td>
+                        <td>{{x.Blog_Content}}</td>
+                        <td>
+                            <a href="javascript:void(0);" ng-click="GetBlogByBlogId(x.Id)" class="btn btn-info add-new"><i class="fa fa-plus"></i>Edit</a>
+                            <a class="btn btn-danger add-new" ng-click="DeleteBlog(x.Id)"><i class="fa fa-plus"></i>Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md"  style="margin-top: 154px;">
+            <div class="modal-content" style="background-color: #eaeef3;">
+                <div class="col-md-4">
+                    <h2>Add Blog</h2>
+                    <label>Title: </label> <input class="form-control" type="text" ng-model="AddBlogModel.Title" />
+                    <label>Content: </label> <input type="text" class="form-control" ng-model="AddBlogModel.Blog_Content" /> <br />
+                    <p><a class="btn btn-default" ng-click="SaveBlog()">Save/Update &raquo;</a></p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>

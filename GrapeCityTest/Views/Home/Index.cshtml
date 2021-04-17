@@ -1,0 +1,22 @@
+﻿@*<div class="jumbotron">
+    <h1>User Login</h1>
+</div>*@
+    <script src="~/Scripts/userController.js"></script>
+<div class="row" ng-app="blogApp" ng-controller="userController">
+    <div class="col-md-4">
+        <h2>User Login</h2>
+        <label>Email: </label> <input class="form-control" type="text" ng-model="userModel.Email" />
+        <label>Password: </label> <input class="form-control" type="password" ng-model="userModel.Password" /><br />
+        <p><a class="btn btn-default" ng-click="ValidateUser()" >Login &raquo;</a></p>
+    </div>
+    @*<div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301871">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
+    </div>*@
+</div>

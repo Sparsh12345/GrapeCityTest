@@ -1,0 +1,14 @@
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\Blogs.DataAccessLayer.dll.config
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\Blogs.DataAccessLayer.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\Blogs.DataAccessLayer.pdb
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\Blogs.DataTransferObject.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\Blogs.DataTransferObject.pdb
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\obj\Debug\Blogs.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\obj\Debug\Blogs.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\obj\Debug\Blogs.DataAccessLayer.csproj.CopyComplete
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\obj\Debug\Blogs.DataAccessLayer.dll
+C:\Users\Acer\Desktop\GrapeCityTest\Blogs.DataAccessLayer\obj\Debug\Blogs.DataAccessLayer.pdb
